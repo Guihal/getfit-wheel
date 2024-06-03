@@ -1,0 +1,844 @@
+<div class="wheel__wrapper">
+  <div class="wheel__con">
+    <div class="wheel__con-left">
+      <div class="wheel__body">
+        <img src="https://static.tildacdn.com/tild6330-3635-4261-b931-626330303234/mailcoin1-36.png" alt="prize-wheel" class="wheel__img" />
+        <img src="https://static.tildacdn.com/tild3463-3933-4761-a430-303863626566/mail-36.png" alt="prize-wheel1" class="wheel__img1" />
+      </div>
+    </div>
+    <div class="wheel__con-right">
+      <img height="171" width="238" src="https://static.tildacdn.com/tild3136-3161-4333-b332-336230636439/gift.png" alt="gift" class="wheel__icon" />
+      <div class="wheel__title">Вращайте Колесо фортуны и забирайте один из гарантированных призов!</div>
+      <div class="wheel__title1 wheel__title"></div>
+      <div class="wheel__title1 wheel__title12 wheel__title"></div>
+      <button class="wheel__start">Вращать колесо</button>
+      <div class="wheel__title--small">Для получения подарка оставьте свой номер телефона и почту</div>
+      <form id="ltForm9330351" class="lt-normal-form lt-form-inner lt-form" action="https://getfit.getcourse.ru/pl/lite/block-public/process-html?id=1913541995" method="post" data-open-new-window="0">
+        <input type="hidden" name="formParams[setted_offer_id]" /><br />
+        <input type="text" maxlength="60" placeholder="Имя" name="formParams[first_name]" value="" /><br />
+        <input type="text" maxlength="60" placeholder="телефон +x ххх ххх хх хх" name="formParams[phone]" value="" /><br />
+        <input type="text" maxlength="60" placeholder="Email" name="formParams[email]" value="" /><br />
+        <input name="formParams[dealCustomFields][1292456]" type="hidden" /><br />
+        <input name="formParams[dealCustomFields][1292457]" type="hidden" /><br />
+        <input name="formParams[dealCustomFields][1292458]" type="hidden" /><br />
+        <input name="formParams[dealCustomFields][1342238]" type="hidden" /><br />
+        <input name="formParams[dealCustomFields][1236951]" type="hidden" /><br />
+        <input name="formParams[dealCustomFields][10190056]" type="hidden" /><br />
+        <input name="formParams[dealCustomFields][1869168]" type="hidden" class="prize1" /><br />
+        <input name="formParams[userCustomFields][1873946]" type="hidden" class="prize" /><br />
+        <button type="submit" id="button8877332" style="color: #ffffff; background-color: #8c75cf; border-radius: 9px !important" onclick="if(window['btnprs66045f887d15c']){return false;}window['btnprs66045f887d15c']=true;setTimeout(function(){window['btnprs66045f887d15c']=false},6000);return true;">ПОЛУЧИТЬ ПРИЗ</button><br />
+        <input type="hidden" id="102883566045f8873578" name="__gc__internal__form__helper" class="__gc__internal__form__helper" value="" />
+        <input type="hidden" id="102883566045f8873578ref" name="__gc__internal__form__helper_ref" class="__gc__internal__form__helper_ref" value="" />
+        <input type="hidden" name="requestTime" value="1711562632" />
+        <input type="hidden" name="requestSimpleSign" value="12f5a7e4155669cce3f9f0ee364c9c0b" />
+        <input type="hidden" name="isHtmlWidget" value="1" />
+      </form>
+      <span id="gccounterImgContainer"></span>
+      <script>
+        window.addEventListener("load", function () {
+          let loc = document.getElementById("102883566045f8873578");
+          loc.value = window.location.href;
+          let ref = document.getElementById("102883566045f8873578ref");
+          ref.value = document.referrer;
+
+          let statUrl = "https://getfit.getcourse.ru/stat/counter?ref=" + encodeURIComponent(document.referrer) + "&loc=" + encodeURIComponent(document.location.href);
+          document.getElementById("gccounterImgContainer").innerHTML = "<img width=1 height=1 style='display:none' id='gccounterImg' src='" + statUrl + "'/>";
+        });
+      </script>
+    </div>
+    <button class="wheel__close">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
+        <path d="M1 1L21 21M21 1L1 21" stroke="#323232" stroke-width="1.66667" />
+      </svg>
+    </button>
+  </div>
+</div>
+<button class="wheel__open">
+  <img height="50" width="50" src="https://static.tildacdn.com/tild3136-3161-4333-b332-336230636439/gift.png" alt="gift" class="wheel__open__icon" />
+  <div class="wheel__open_text">
+    Забрать <br />
+    подарок
+  </div>
+</button>
+
+<style>
+  .wheel__start {
+    cursor: pointer;
+    max-width: 311px;
+    width: 80%;
+    display: flex;
+    height: 56px;
+    padding: 17px 17px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #8c75cf;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.1), 0px 2px 4px 0px rgba(0, 0, 0, 0.1), 0px 7px 7px 0px rgba(0, 0, 0, 0.09), 0px 15px 9px 0px rgba(0, 0, 0, 0.05), 0px 26px 10px 0px rgba(0, 0, 0, 0.01), 0px 41px 11px 0px rgba(0, 0, 0, 0);
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    color: #fff;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; /* 14px */
+    letter-spacing: -0.14px;
+    text-transform: uppercase;
+    border: none;
+  }
+
+  .wheel__con form {
+    display: none;
+    opacity: 0;
+    transition: all 0.3s;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .wheel__con-right svg {
+  }
+
+  html body .t-records .nlm020block--none {
+    overflow: hidden !important;
+    display: none !important;
+  }
+
+  .wheel__open_text {
+    color: #323232;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 21.6px; /* 120% */
+    letter-spacing: -0.072px;
+  }
+
+  .wheel__title--small {
+    color: rgba(50, 50, 50, 0.5);
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15.6px; /* 120% */
+    letter-spacing: -0.039px;
+    margin-bottom: 20px;
+  }
+
+  .uc-img {
+    display: none;
+  }
+
+  .wheel__title1 {
+    opacity: 0;
+    transition: all 0.3s;
+    margin-bottom: 20px;
+  }
+  .wheel__title {
+    color: #323232;
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 21.6px; /* 120% */
+    letter-spacing: -0.072px;
+    text-align: center;
+  }
+
+  .uc-form {
+    padding: 0 !important;
+    width: 100%;
+  }
+
+  .uc-form .t-col {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .wheel__img {
+    max-width: 610px;
+    max-height: 610px;
+  }
+
+  .wheel__img1 {
+    top: -0px;
+    right: 0px;
+    position: absolute;
+    max-width: 610px;
+    max-height: 610px;
+  }
+
+  .wheel__open__icon {
+    margin-left: -18px;
+    margin-right: -15px;
+    height: 91px;
+    width: auto;
+  }
+
+  .wheel__open {
+    cursor: pointer;
+    border-radius: 5px;
+    z-index: 5000;
+    border: none;
+    padding: none;
+    position: fixed;
+    padding-right: 20px;
+    height: fit-content;
+    width: fit-content;
+    width: -webkit-fit-content;
+    height: -webkit-fit-content;
+    bottom: 100px;
+    left: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0px;
+    border-radius: 10px;
+    background: #cbef8c;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.1), 0px 4px 4px 0px rgba(0, 0, 0, 0.09), 0px 8px 5px 0px rgba(0, 0, 0, 0.05), 0px 15px 6px 0px rgba(0, 0, 0, 0.01), 0px 23px 6px 0px rgba(0, 0, 0, 0);
+  }
+
+  .wheel__body {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    height: auto;
+    width: auto;
+
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+  }
+  .wheel__close {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 33px;
+    right: 22px;
+    border: none;
+    background: transparent;
+  }
+
+  .wheel__wrapper {
+    overflow-y: auto;
+    transition: all 0.3s;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    opacity: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(50, 50, 50, 0.8);
+  }
+
+  .wheel__start {
+    transition: all 0.3s;
+  }
+
+  .wheel__con {
+    gap: 50px;
+    background: #f8f8fe;
+    position: relative;
+    display: flex;
+    max-width: 1440px;
+    justify-content: space-between;
+    width: calc(100% - 80px);
+    max-height: 100%;
+    padding: 70px 100px;
+    border-radius: 20px;
+    margin: 20px auto;
+  }
+
+  .wheel__con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .wheel__con-left {
+    position: relative;
+  }
+
+  .wheel__con-right {
+    flex-direction: column;
+  }
+
+  .wheel__con form input {
+    padding: 0 20px;
+    font-size: 13px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border: 1px solid rgba(50, 50, 50, 0.3) !important;
+    height: 50px;
+    background: #fff;
+    width: 100%;
+  }
+  .wheel__con .t-input-phonemask {
+    border: none !important;
+  }
+
+  .wheel__con [type="checkbox"] {
+    border: 1px solid rgba(50, 50, 50, 0.3);
+  }
+
+  .wheel__con .t-input input {
+    color: rgba(50, 50, 50, 0.5);
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15.6px; /* 120% */
+    letter-spacing: -0.039px;
+  }
+
+  .wheel__con .t-checkbox__indicator {
+    border: 1px solid rgba(50, 50, 50, 0.3);
+  }
+
+  .wheel__con .t-input-phonemask__wrap * {
+    color: rgba(50, 50, 50, 0.5);
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  .wheel__con [type="submit"] {
+    box-sizing: border-box !important;
+    border: none !important;
+    display: flex;
+    width: 100% !important;
+    height: 56px !important;
+    padding: 17px 17px !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 10px !important;
+    flex-shrink: 0 !important;
+    border-radius: 10px !important;
+    background: #8c75cf !important;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.1), 0px 2px 4px 0px rgba(0, 0, 0, 0.1), 0px 7px 7px 0px rgba(0, 0, 0, 0.09), 0px 15px 9px 0px rgba(0, 0, 0, 0.05), 0px 26px 10px 0px rgba(0, 0, 0, 0.01), 0px 41px 11px 0px rgba(0, 0, 0, 0) !important;
+  }
+
+  .wheel__con-right .t-form__inputsbox {
+    display: block;
+    max-height: 100%;
+    opacity: 1;
+    overflow: visible;
+  }
+
+  .wheel__con {
+    box-sizing: border-box;
+  }
+
+  .wheel__title12 {
+    display: none;
+    opacity: 0;
+  }
+
+  .wheel__con * {
+    font-family: Inter;
+  }
+
+  .wheel__con-right {
+    order: -1;
+  }
+
+  .wheel__con-right,
+  .wheel__con-left {
+    flex-basis: 50%;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .t-input-phonemask {
+    border: none !important;
+  }
+
+  .t-body--overflow {
+    overflow: hidden;
+  }
+
+  .wheel__wrapper--show {
+    z-index: 500000;
+  }
+
+  [name="Приз"] {
+    display: none;
+  }
+
+  .uc-form,
+  .wheel__title--small {
+    pointer-events: none;
+    opacity: 0;
+    display: none;
+    transition: all 0.3s;
+  }
+
+  .wheel__title--small {
+    text-align: center;
+  }
+
+  @media screen and (max-width: 1520px) {
+    .wheel__con {
+      padding: 70px;
+    }
+  }
+
+  @media screen and (max-width: 1264px) {
+    .wheel__con-left {
+      justify-content: start;
+    }
+    .wheel__con {
+      gap: 50px;
+    }
+  }
+
+  @media screen and (max-width: 1200px) {
+    .wheel__wrapper {
+      height: 100%;
+    }
+  }
+
+  @media screen and (max-width: 1130px) {
+    .wheel__start {
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 1090px) {
+    .wheel__img,
+    .wheel__img1 {
+      width: 510px;
+      height: 510px;
+    }
+  }
+
+  @media screen and (max-width: 1000px) {
+    .wheel__con-left {
+      justify-content: start;
+    }
+
+    .wheel__con {
+      gap: 40px;
+      padding: 30px !important;
+      margin: 20px auto;
+      width: calc(100% - 40px);
+    }
+  }
+
+  @media screen and (max-width: 877px) {
+    .wheel__img,
+    .wheel__img1 {
+      width: 410px;
+      height: 410px;
+    }
+  }
+
+  @media screen and (max-width: 824px) {
+    .wheel__con-left {
+      justify-content: center;
+    }
+
+    .wheel__open {
+      padding: 0 !important;
+    }
+
+    .wheel__open_text {
+      color: #323232;
+      font-family: Inter;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 21.6px; /* 120% */
+      letter-spacing: -0.072px;
+      display: none;
+    }
+    .wheel__open__icon {
+      margin-right: -18px;
+    }
+
+    .wheel__img,
+    .wheel__img1 {
+      width: 100% !important;
+      height: auto !important;
+    }
+
+    .wheel__con-left {
+      justify-content: center;
+    }
+
+    .wheel__con {
+      flex-direction: column;
+      max-height: none;
+      margin-top: 490px;
+      margin-left: 20px;
+      margin-bottom: 20px;
+    }
+    .wheel__wrapper {
+      overflow-y: scroll;
+    }
+  }
+
+  @media screen and (max-width: 710px) {
+    .wheel__img,
+    .wheel__img1 {
+      width: 510px;
+      height: 510px;
+    }
+
+    .wheel__con {
+      flex-direction: column;
+      max-height: none;
+      margin-top: 20px;
+    }
+  }
+
+  @media screen and (min-width: 710px) {
+    .wheel__con {
+      margin-top: 20px;
+      margin-left: 20px;
+      margin-bottom: 20px;
+    }
+  }
+
+  @media screen and (max-width: 610px) {
+    .wheel__img,
+    .wheel__img1 {
+      width: 410px;
+      height: 410px;
+    }
+
+    .wheel__con {
+      flex-direction: column;
+      max-height: none;
+      margin-top: 290px;
+      margin-left: 20px;
+      margin-bottom: 20px;
+    }
+  }
+
+  @media screen and (max-width: 510px) {
+    .wheel__img,
+    .wheel__img1 {
+      width: 310px;
+      height: 310px;
+    }
+
+    .wheel__con {
+      flex-direction: column;
+      max-height: none;
+      margin-top: 190px;
+      margin-left: 20px;
+      margin-bottom: 20px;
+    }
+  }
+
+  @media screen and (max-width: 430px) {
+    .wheel__img,
+    .wheel__img1 {
+      width: 210px;
+      height: 210px;
+    }
+  }
+
+  @media screen and (max-height: 800px) {
+    .wheel__icon {
+      width: auto;
+      height: 100px;
+    }
+
+    .wheel__con {
+      width: calc(100% - 40px);
+      padding-top: 40px;
+      padding-bottom: 40px;
+      margin: 20px 20px;
+    }
+  }
+
+  .wheel__wrapper iframe {
+    display: none;
+  }
+</style>
+<script>
+  let chance = [26.225, 35.225, 19.225, 19.225, 0.1];
+
+  // 1 - Чек-лист 5 важных показателей анализов
+  // 2 - Грант до 30000 рублей
+  // 3 - Марафон Прожектор Здоровья
+  // 4 - Марафон Биохимия здоровой фигуры
+  // 5 - Курс Нутрициология 2.0
+
+  let loop = false;
+
+  // Бесконечная прокрутка
+  // true - работает
+  // false- не работает
+
+  let ffff = setInterval(() => {
+    const submit = document.querySelector(".wheel__con [type='submit']"); //
+    const pol1 = document.querySelector(".wheel__con [name='formParams[first_name]']");
+    const pol2 = document.querySelector(".wheel__con [name='formParams[phone]']");
+    const pol3 = document.querySelector(".wheel__con [name='formParams[email]']");
+    const form = document.querySelector(".wheel__wrapper form");
+    const form1 = document.querySelector(".wheel__title12");
+    const wheelTitleSmall = document.querySelector(".wheel__title--small");
+
+    if (submit && pol2 && pol1 && pol3 && form && form1 && wheelTitleSmall) {
+      let gg = window.location.href;
+
+      submit.addEventListener("click", (event) => {
+        if (pol3.value != "" && pol1.value != "" && pol2.value != "") {
+          /*let href = window.location.href;
+                let hiff = setInterval(() => {
+                    window.location.href = href;
+                }, 0.1);
+                */
+          wheelTitleSmall.opacity = "0";
+          form.style.opacity = "0";
+          setTimeout(() => {
+            form.style.display = "none";
+            wheelTitleSmall.style.display = "none";
+          }, 300);
+          form1.style.display = "block";
+          form1.textContent = "Не пропустите звонок! Мы скоро свяжемся с вами!";
+          setTimeout(() => {
+            form1.style.opacity = "1";
+          }, 50);
+        }
+
+        //event.preventDefault();
+      });
+      clearInterval(ffff);
+    }
+  }, 10);
+
+  let wheelOpen = setInterval(() => {
+    const wheelOpenBtn = document.querySelector(".wheel__open");
+    const wheelBody = document.querySelector(".wheel__wrapper");
+    const wheelCon = document.querySelector(".wheel__con");
+    const tbody = document.querySelector(".t-body");
+    const nlm020block = document.querySelector(".nlm020block");
+
+    if (wheelBody && wheelOpenBtn && tbody) {
+      if (nlm020block) {
+        nlm020block.classList.add("nlm020block--none");
+      }
+      console.log(4);
+      wheelOpenBtn.addEventListener("click", (event) => {
+        console.log(5);
+        wheelBody.classList.add("wheel__wrapper--show");
+        wheelBody.style.display = "block";
+        setTimeout(() => {
+          wheelBody.style.opacity = "1";
+          if (wheelBody.offsetHeight - 30 > wheelCon.offsetHeight) {
+            wheelCon.style.margin = (wheelBody.offsetHeight - wheelCon.offsetHeight) / 2 + "px auto";
+          }
+        }, 50);
+        tbody.classList.add("t-body--overflow");
+      });
+      clearInterval(wheelOpen);
+    }
+  }, 10);
+
+  let wheelClose = setInterval(() => {
+    const wheelCloseBtn = document.querySelector(".wheel__close");
+    const wheelBody = document.querySelector(".wheel__wrapper");
+    const tbody = document.querySelector(".t-body");
+
+    const nlm020block = document.querySelector(".nlm020block");
+
+    if (wheelBody && wheelCloseBtn && tbody) {
+      wheelCloseBtn.addEventListener("click", (event) => {
+        wheelBody.style.opacity = "0";
+        setTimeout(() => {
+          wheelBody.classList.remove("wheel__wrapper--show");
+          wheelBody.style.display = "none";
+          tbody.classList.remove("t-body--overflow");
+        }, 300);
+      });
+      clearInterval(wheelClose);
+    }
+  }, 10);
+
+  let popuHidden = setInterval(() => {
+    const wheelCloseBtn = document.querySelector(".wheel__close");
+    const nlm020block = document.querySelectorAll(".nlm020block");
+    const wheelOpenBtn = document.querySelector(".wheel__open");
+
+    if (nlm020block.length > 0 && wheelOpenBtn && wheelCloseBtn) {
+      console.log(1);
+      wheelOpenBtn.addEventListener("click", (event) => {
+        for (let i = 0; i < nlm020block.length; i++) {
+          console.log(12);
+          nlm020block[i].classList.add("nlm020block--none");
+        }
+      });
+      wheelCloseBtn.addEventListener("click", (event) => {
+        console.log(123);
+        for (let i = 0; i < nlm020block.length; i++) {
+          nlm020block[i].classList.remove("nlm020block--none");
+        }
+      });
+
+      clearInterval(popuHidden);
+    }
+  }, 10);
+
+  let wheelMove = setInterval(() => {
+    const wheel = document.querySelector(".wheel__img1");
+    const wheelCon = document.querySelector(".wheel__con");
+    const form = document.querySelector(".wheel__wrapper form");
+    const tFormSubmit = wheelCon.querySelector(".wheel__start");
+    const tFormPrize = document.querySelector(".prize");
+    const tFormPrize1 = document.querySelector(".prize1");
+    const wheelTitle = document.querySelector(".wheel__title");
+    const wheelTitle1 = document.querySelector(".wheel__title1");
+
+    const wheelTitleSmall = document.querySelector(".wheel__title--small");
+
+    if (wheel && tFormSubmit && wheelCon && wheelTitle && tFormPrize && form && wheelTitle1 && tFormPrize1) {
+      let rotate = 1;
+      let Move1s = setInterval(() => {
+        wheel.style.transition = "1s all linear";
+        wheel.style.transform = "rotate(" + rotate + "deg)";
+        rotate = rotate + 1;
+      }, 1000);
+      if (window.localStorage.getItem("prize") == null || loop) {
+        tFormSubmit.addEventListener("click", () => {
+          setTimeout(() => {
+            window.localStorage.removeItem("prize");
+            let randomPrize = Math.random() * (chance[0] + chance[1] + chance[2] + chance[3] + chance[4]);
+            clearInterval(Move1s);
+            tFormSubmit.style.pointerEvents = "none";
+
+            tFormSubmit.style.opacity = "0.5";
+            if (randomPrize < chance[0]) {
+              wheel.style.transition = "9s all cubic-bezier(0, 0.76, 0.5, 1.01)";
+              wheel.style.transform = "rotate(7236deg)";
+              tFormPrize.value = "Чек-лист";
+              tFormPrize1.value = "Чек-лист";
+
+              window.localStorage.setItem("prize", "3");
+              if (window.localStorage.getItem("prize") == "3") {
+                setTimeout(() => {
+                  wheelTitle.textContent = "Поздравляем! Вы выиграли:  \r\n";
+                  wheelTitle1.textContent += "Чек-лист 5 важных показателей анализов!";
+                }, 9000);
+              }
+            } else if (randomPrize <= chance[0] + chance[1]) {
+              wheel.style.transition = "9s all cubic-bezier(0, 0.76, 0.5, 1.01)";
+              wheel.style.transform = "rotate(7380deg)";
+              tFormPrize.value = "Грант";
+              tFormPrize1.value = "Грант";
+              window.localStorage.setItem("prize", "2");
+              if (window.localStorage.getItem("prize") == "2") {
+                setTimeout(() => {
+                  wheelTitle.textContent = "Поздравляем! Вы выиграли:  \r\n";
+                  wheelTitle1.textContent += "Грант до 30000 рублей!";
+                }, 9000);
+              }
+            } else if (randomPrize <= chance[0] + chance[1] + chance[2]) {
+              wheel.style.transition = "9s all cubic-bezier(0, 0.76, 0.5, 1.01)";
+              wheel.style.transform = "rotate(7452deg)";
+              tFormPrize.value = "Марафон Прожектор здоровья";
+              tFormPrize1.value = "Марафон Прожектор здоровья";
+              window.localStorage.setItem("prize", "1");
+              if (window.localStorage.getItem("prize") == "1") {
+                setTimeout(() => {
+                  wheelTitle.textContent = "Поздравляем! Вы выиграли:  \r\n";
+                  wheelTitle1.textContent += "Марафон Прожектор Здоровья!";
+                }, 9000);
+              }
+            } else if (randomPrize <= chance[0] + chance[1] + chance[2] + chance[3]) {
+              wheel.style.transition = "9s all cubic-bezier(0, 0.76, 0.5, 1.01)";
+              wheel.style.transform = "rotate(7524deg)";
+              tFormPrize.value = "Марафон Биохимия здоровой фигуры";
+              tFormPrize1.value = "Марафон Биохимия здоровой фигуры";
+              window.localStorage.setItem("prize", "0");
+              if (window.localStorage.getItem("prize") == "0") {
+                setTimeout(() => {
+                  wheelTitle.textContent = "Поздравляем! Вы выиграли:  \r\n";
+                  wheelTitle1.textContent += "Марафон Биохимия здоровой фигуры!!";
+                }, 9000);
+              }
+            } else if (randomPrize > chance[0] + chance[1] + chance[2] + chance[3]) {
+              wheel.style.transition = "9s all cubic-bezier(0, 0.76, 0.5, 1.01)";
+              wheel.style.transform = "rotate(7308deg)";
+              tFormPrize.value = "Нутрициология 2.0";
+              tFormPrize1.value = "Нутрициология 2.0";
+              window.localStorage.setItem("prize", "0");
+              if (window.localStorage.getItem("prize") == "0") {
+                setTimeout(() => {
+                  wheelTitle.textContent = "Поздравляем! Вы выиграли:  \r\n";
+                  wheelTitle1.textContent += "Курс Нутрициология 2.0!!";
+                }, 9000);
+              }
+            }
+            setTimeout(() => {
+              form.style.display = "flex";
+              wheelTitleSmall.style.display = "block";
+              tFormSubmit.style.display = "none";
+              wheelTitle1.style.display = "block";
+              setTimeout(() => {
+                wheelTitleSmall.style.opacity = "1";
+                wheelTitleSmall.style.pointerEvents = "all";
+                form.style.opacity = "1";
+                wheelTitle1.style.opacity = "1";
+                form.style.pointerEvents = "all";
+              }, 50);
+            }, 9000);
+          }, 50);
+        });
+      } else {
+        wheelTitleSmall.style.display = "none";
+        tFormSubmit.style.display = "none";
+        wheelTitleSmall.style.opacity = "1";
+        wheelTitleSmall.style.pointerEvents = "all";
+        form.style.display = "none";
+        wheelTitle1.style.display = "block";
+        wheelTitle1.style.display = "block";
+        setTimeout(() => {
+          wheelTitle1.style.opacity = "1";
+        }, 50);
+
+        if (window.localStorage.getItem("prize") == "0") {
+          wheelTitle.textContent = "Поздравляем! Вы выиграли:  \r\n";
+          wheelTitle1.textContent += "Марафон Биохимия здоровой фигуры!!";
+          wheel.style.transform = "rotate(7524deg)";
+          clearInterval(Move1s);
+        }
+
+        if (window.localStorage.getItem("prize") == "1") {
+          wheelTitle.textContent = "Поздравляем! Вы выиграли:  \r\n";
+          wheelTitle1.textContent += "Марафон Прожектор Здоровья!";
+          clearInterval(Move1s);
+          wheel.style.transform = "rotate(7452deg)";
+        }
+
+        if (window.localStorage.getItem("prize") == "2") {
+          wheelTitle.textContent = "Поздравляем! Вы выиграли:  \r\n";
+          wheelTitle1.textContent += "Грант до 30000 рублей!";
+          wheel.style.transform = "rotate(7380deg)";
+          clearInterval(Move1s);
+        }
+
+        if (window.localStorage.getItem("prize") == "3") {
+          clearInterval(Move1s);
+          wheel.style.transform = "rotate(7236deg)";
+
+          wheelTitle.textContent = "Поздравляем! Вы выиграли:  \r\n";
+          wheelTitle1.textContent += "Чек-лист 5 важных показателей анализов!";
+        }
+      }
+
+      clearInterval(wheelMove);
+    }
+  }, 10);
+</script>
